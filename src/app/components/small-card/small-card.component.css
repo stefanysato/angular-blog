@@ -1,0 +1,29 @@
+.container__small-card {
+  width: 500px;
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.small-card__photo img {
+  width: 12rem;
+}
+
+.small-card__title > span {
+  color: #838383;
+}
+
+.small-card__title > h3 {
+  margin-top: .5rem;
+}
+
+@media (max-width: 500px) {
+  .container__small-card {
+    width: 350px;
+    align-items: center;
+  }
+
+  .small-card__photo img {
+    width: 8rem;
+  }
+}

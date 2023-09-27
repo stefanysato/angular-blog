@@ -1,0 +1,41 @@
+.container__big-card {
+  /* border: 1px solid #fff; */
+  width: 400px;
+  margin: 1rem auto;
+}
+
+.big-card__photo img {
+  width: 100%;
+}
+
+.big-card__title {
+  font-size: 1.2rem;
+  margin-top: .5rem;
+}
+
+.big-card__title > span {
+  color: #838383;
+  font-size: 1rem;
+}
+
+.big-card__title > h2 {
+  margin-top: .5rem;
+}
+
+.big-card__desc > p {
+  color: #838383;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+
+@media (max-width: 968px) {
+  .container__big-card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container__big-card {
+    width: 350px;
+  }
+}

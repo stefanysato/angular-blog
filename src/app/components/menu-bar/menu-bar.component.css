@@ -1,0 +1,38 @@
+.container__menu {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem auto;
+  padding: 1rem 0;
+}
+
+.menu__icons {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.menu__links {
+  display: flex;
+  gap: 1rem;
+  text-transform: uppercase;
+}
+
+.menu__links a {
+  text-decoration: none;
+  color: #838383;
+}
+
+.menu__links a:hover, .fa-brands:hover, .fa-regular:hover {
+  color: #ffffff !important;
+}
+
+.container__menu > ul > li {
+  list-style: none;
+}
+
+@media screen and (max-width:500px) {
+  .container__menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
