@@ -4,11 +4,13 @@
 
 .container__menu-title > h1 {
    margin: 1rem 0;
-   font-size: 12rem;
+   padding: 2rem 0;
+   font-size: 8.5rem;
    display: flex;
    justify-content: center;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family:'Courier New', Courier, monospace;
    height: auto;
+   font-weight: 400;
 }
 
 .container__menu-title > hr {
@@ -17,6 +19,6 @@
 
 @media (max-width: 968px) {
    .container__menu-title > h1 {
-      font-size: 4rem;
+      font-size: 3rem;
    }
 }

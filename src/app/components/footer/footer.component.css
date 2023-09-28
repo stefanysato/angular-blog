@@ -1,0 +1,9 @@
+.container__footer {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.container__footer > span {
+  font-family: 'Courier New', Courier, monospace;
+}

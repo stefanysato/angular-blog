@@ -19,6 +19,7 @@
 .menu__links a {
   text-decoration: none;
   color: #838383;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .menu__links a:hover, .fa-brands:hover, .fa-regular:hover {

@@ -1,12 +1,12 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <a href="#"><img
+    <a [routerLink]="['content', id]"><img
     src="{{photoCover}}" alt=""
     ></a>
   </div>
   <div class="big-card__title">
     <span>{{ newsDate }}</span>
-    <h2><a href="#">{{cardTitle}}</a></h2>
+    <h2><a [routerLink]="['content', id]">{{cardTitle}}</a></h2>
   </div>
   <div class="big-card__desc">
     <p>

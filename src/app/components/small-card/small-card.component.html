@@ -1,9 +1,9 @@
 <div class="container__small-card">
   <div class="small-card__photo">
-    <a href=""><img src="{{photoCover}}" alt="" srcset=""></a>
+    <a [routerLink]="['content', id]"><img src="{{photoCover}}" alt="" srcset=""></a>
   </div>
   <div class="small-card__title">
     <span>{{newsDate}}</span>
-    <h3><a href="#">{{cardTitle}}</a></h3>
+    <h3><a [routerLink]="['content', id]">{{cardTitle}}</a></h3>
   </div>
 </div>
