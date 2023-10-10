@@ -21,12 +21,17 @@ Clone o repositório localmente:
 git clone https://github.com/stefanysato/angular-blog.git
 ```
 
-No terminal, instale o Node Package Manager na pasta do projeto:
+No terminal, instale as dependências:
 ```
 npm install
 ```
 
-Execute o comando `ng serve` e navegue até o endereço `http://localhost:4200/`
+Execute o comando abaixo para rodar o projeto:
+```
+npm run start
+```
+
+Porta de acesso padrão > http://localhost:4200/
 
 ## Tecnologias
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
